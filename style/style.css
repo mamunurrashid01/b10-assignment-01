@@ -5,10 +5,11 @@ body {
   font-family: azeret mono;
 }
 .benner-section {
-  max-width: 90%;
+  max-width: 100%;
   margin: 0 auto;
 }
 .header {
+  padding: 0 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,7 +17,7 @@ body {
   color: rgb(13, 19, 33);
   font-size: 28px;
   font-weight: 800;
-  line-height: 33px;
+  line-height: 23px;
   letter-spacing: 0%;
   text-align: left;
 }
@@ -180,7 +181,6 @@ body {
     rgba(0, 0, 0, 0.2), url(Email);
   background-position: center;
   background-size: cover;
-  padding: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
