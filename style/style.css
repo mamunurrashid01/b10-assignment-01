@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: azeret mono;
+}
+.benner-section {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
+  color: rgb(13, 19, 33);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 33px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.header-btn {
+  padding: 10px 15px;
+  border-radius: 1rem;
+}
+.hero {
+  background-image: url("../assets/Hero-bg.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px dashed rgb(207, 203, 203);
+  border-bottom: 2px dashed rgb(207, 203, 203);
+}
+.hero-content {
+  max-width: 50%;
+  margin: 40px auto;
+  text-align: center;
+}
+.hero-content-para {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.header-btn-bottom {
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 12px 15px;
+  border-radius: 10px;
+  background-color: black;
+  color: aliceblue;
+}
+.development-section {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.development-content {
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 946px;
+  margin: 20px auto;
+  padding: 30px;
+}
+.development-title {
+  text-align: center;
+  max-width: 946px;
+  margin: 15px auto;
+  padding: 15px;
+}
+.development-content-heading {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.development-content-para {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+.content-button {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(219, 215, 215);
+}
