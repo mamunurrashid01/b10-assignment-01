@@ -59,6 +59,7 @@ body {
 .development-section {
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.02);
+  padding-bottom: 20px;
 }
 .development-content {
   border-radius: 16px;
@@ -108,4 +109,18 @@ body {
   padding: 5px 10px;
   border-radius: 5px;
   border: 2px solid rgb(219, 215, 215);
+}
+/* .inspiration-container {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+} */
+.inspiration-section {
+  text-align: center;
+  width: 852px;
+  margin: 5px auto;
+}
+.inspiration-video {
+  width: 1076px;
+  margin: 5px auto;
+  text-align: center;
 }
