@@ -149,12 +149,6 @@ body {
   background: rgba(255, 223, 0, 0.05);
   padding: 40px;
 }
-/* .target-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-} */
 .net-target {
   max-width: 1140px;
   margin: 40px auto;
@@ -175,4 +169,75 @@ body {
   border-radius: 16px;
   background: rgb(255, 255, 255);
   padding: 25px;
+}
+.support-section {
+  max-width: 1140px;
+  margin: 40px auto;
+  border-radius: 16px;
+  height: 313px;
+  background-image: url("../assets/handshake.jpg");
+  background-blend-mode: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2), url(Email);
+  background-position: center;
+  background-size: cover;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.support-title {
+  max-width: 50%;
+  margin: 25px auto;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.serch-area {
+  max-width: 60%;
+  margin: 20px auto;
+  text-align: center;
+}
+.serch-area input {
+  width: 70%;
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding-left: 15px;
+}
+.serch-area button {
+  height: 35px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.support-para {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.footer {
+  border-radius: 16px;
+  padding: 5px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(13, 19, 33, 0.03);
+}
+.list-item ul {
+  display: flex;
+  gap: 35px;
+}
+.list-item ul li {
+  list-style: none;
 }
