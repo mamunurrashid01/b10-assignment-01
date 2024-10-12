@@ -93,7 +93,7 @@ body {
 }
 .development-content-para {
   color: rgb(13, 19, 33);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 26px;
   letter-spacing: 0%;
@@ -110,23 +110,69 @@ body {
   border-radius: 5px;
   border: 2px solid rgb(219, 215, 215);
 }
-/* .inspiration-container {
+.inspiration-container {
   border-radius: 16px;
-  background: rgba(13, 19, 33, 0.02);
-} */
+  margin: 60px 0;
+}
 .inspiration-section {
   text-align: center;
   width: 852px;
   margin: 5px auto;
-  color: rgb(13, 19, 33);
-  font-size: 32px;
-  font-weight: 800;
-  line-height: 37px;
-  letter-spacing: 0%;
-  text-align: center;
 }
 .inspiration-video {
   width: 1076px;
   margin: 5px auto;
   text-align: center;
+}
+.inspiration-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.inspire {
+  width: 1140px;
+  margin: 20px auto;
+}
+.html-content {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 40px;
+}
+.css-content {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  padding: 40px;
+}
+.js-content {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  padding: 40px;
+}
+/* .target-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+} */
+.net-target {
+  max-width: 1140px;
+  margin: 40px auto;
+}
+.target-title {
+  width: 50%;
+  margin: 35px auto;
+  text-align: center;
+}
+.library-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 35px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 25px;
 }
