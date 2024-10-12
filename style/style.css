@@ -118,6 +118,12 @@ body {
   text-align: center;
   width: 852px;
   margin: 5px auto;
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
 }
 .inspiration-video {
   width: 1076px;
